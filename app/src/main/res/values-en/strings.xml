@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">PhoneMate</string>
+    <string name="overlay_channel_name">PhoneMate overlay</string>
+    <string name="overlay_notification_title">PhoneMate is running</string>
+    <string name="overlay_notification_text">Floating companion overlay is active</string>
+
+    <!-- Shared actions -->
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_close">Close</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_choose">Choose</string>
+    <string name="action_replace">Replace</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_permission">Permission</string>
+
+    <!-- Shared labels -->
+    <string name="label_resource_section">Resource</string>
+    <string name="label_light_text">Light text</string>
+    <string name="label_character_section">Character</string>
+    <string name="label_image_shape_section">Image shape</string>
+    <string name="image_shape_original">Original</string>
+    <string name="image_shape_round">Round</string>
+    <string name="label_standing_threshold">Lounging around %1$s</string>
+    <string name="label_walking_threshold">Strolling along %1$s</string>
+    <string name="label_running_threshold">Bolting %1$s</string>
+    <string name="label_standing_threshold_name">Lounging around</string>
+    <string name="label_walking_threshold_name">Strolling along</string>
+    <string name="label_running_threshold_name">Bolting</string>
+    <string name="label_sleeping">Conked out</string>
+    <string name="label_standing">Zoning out</string>
+    <string name="label_walking">Strolling along</string>
+    <string name="label_running">Bolting</string>
+
+    <!-- Main screen -->
+    <string name="main_choose_image_intent_title">Choose image</string>
+    <string name="main_permission_section_title">Overlay permission</string>
+    <string name="main_permission_allowed">Allowed</string>
+    <string name="main_permission_required">Required</string>
+    <string name="main_onboarding_title">Get started with PhoneMate</string>
+    <string name="main_onboarding_body">Keep a friend floating on top of your phone so it never feels dull to use.\n\n1. Grant the display-over-other-apps permission in Permission.\n2. Tap Start and the character appears on your screen.\n3. Long-press the character to open the quick settings menu.\n4. Use the settings screen to adjust the character, its size, and the resource thresholds.\n5. Register custom characters using JPG, PNG, or GIF images.\n6. If a GIF isn\'t showing up in your file manager, try another file manager such as \'My Files\'.\n\n※ Network speed is measured from the actual data flowing across the whole device, and this measurement itself doesn\'t use any data. It reads low when there\'s no traffic like downloads, and higher when there is.</string>
+    <string name="main_onboarding_confirm">Got it</string>
+    <string name="main_toggle_resource_bar">Resource bar</string>
+    <string name="main_toggle_speech_bubble">Speech bubble</string>
+    <string name="main_toggle_image_border">Image border</string>
+    <string name="main_animation_speed">Animation speed %1$sx</string>
+    <string name="main_character_scale">Character scale %1$sx</string>
+    <string name="main_editing_character">Editing %1$s</string>
+    <string name="main_new_custom_character">New custom character</string>
+    <string name="main_new_custom">New custom</string>
+    <string name="main_edit_custom">Edit custom</string>
+    <string name="main_delete_custom">Delete custom…</string>
+    <string name="main_custom_name_label">Custom name</string>
+    <string name="main_no_file">No file</string>
+    <string name="main_save_changes">Save changes</string>
+    <string name="main_save_new_character">Save new character</string>
+    <string name="main_edit_character_dialog_title">Edit Character</string>
+    <string name="main_delete_characters_dialog_title">Delete Characters</string>
+
+    <!-- Main screen status messages -->
+    <string name="main_status_overlay_started">Overlay started</string>
+    <string name="main_status_overlay_stopped">Overlay stopped</string>
+    <string name="main_status_select_custom_to_update">Select a custom character to update</string>
+    <string name="main_status_enter_character_name">Enter a character name</string>
+    <string name="main_status_choose_minimum_state_image">Choose an image for the minimum state, Conked out</string>
+    <string name="main_minimum_state_image_required">The minimum-state Conked out image is required to save a character.</string>
+    <string name="main_status_character_updated">Character updated</string>
+    <string name="main_status_character_registered">Character registered</string>
+    <string name="main_status_character_operation_failed">Character operation failed</string>
+    <string name="main_status_select_custom_to_delete">Select a custom character to delete</string>
+    <string name="main_status_character_deleted">Character deleted</string>
+    <string name="main_status_register_custom_character">Register custom character</string>
+
+    <!-- Popup menu -->
+    <string name="menu_always_on_top">Always on top</string>
+    <string name="menu_show_resource_bar">Show resource bar</string>
+    <string name="menu_show_speech_bubble">Show speech bubble</string>
+    <string name="menu_show_image_border">Show image border</string>
+    <string name="menu_state_thresholds_section">State thresholds</string>
+    <string name="menu_animation_speed_section">Animation speed</string>
+    <string name="menu_character_scale_section">Character scale</string>
+    <string name="menu_image_shape_section">Image shape</string>
+    <string name="menu_reset_size">Reset size</string>
+
+    <!-- Resource type labels -->
+    <string name="resource_type_battery">Battery</string>
+    <string name="resource_type_network">Network</string>
+
+    <!-- Character repository error messages -->
+    <string name="char_repo_error_not_found">Custom character not found.</string>
+    <string name="char_repo_error_name_required">Character name is required.</string>
+    <string name="char_repo_error_minimum_state_image_required">The minimum-state Conked out image is required.</string>
+    <string name="char_repo_error_duplicate_name">A character with the same name already exists. Use Edit custom to update it.</string>
+    <string name="char_repo_error_image_extension">%1$s image must be GIF, PNG, JPG, or JPEG.</string>
+    <string name="char_repo_error_image_open_failed">Image could not be opened.</string>
+    <string name="char_repo_error_image_open_failed_from_path">Image could not be opened from %1$s.</string>
+</resources>

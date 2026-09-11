@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">PhoneMate</string>
+    <string name="foreground_service_special_use">플로팅 리소스 컴패니언 오버레이</string>
+    <string name="overlay_channel_name">PhoneMate 오버레이</string>
+    <string name="overlay_notification_title">PhoneMate가 실행 중입니다</string>
+    <string name="overlay_notification_text">플로팅 컴패니언 오버레이가 활성화되어 있습니다</string>
+
+    <!-- Shared actions -->
+    <string name="action_start">시작</string>
+    <string name="action_stop">정지</string>
+    <string name="action_close">닫기</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_edit">수정</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_choose">선택</string>
+    <string name="action_replace">교체</string>
+    <string name="action_clear">비우기</string>
+    <string name="action_settings">설정</string>
+    <string name="action_help">도움말</string>
+    <string name="action_permission">권한</string>
+
+    <!-- Shared labels -->
+    <string name="label_resource_section">리소스</string>
+    <string name="label_light_text">다크 모드</string>
+    <string name="label_character_section">캐릭터</string>
+    <string name="label_image_shape_section">이미지 형태</string>
+    <string name="image_shape_original">원본</string>
+    <string name="image_shape_round">원형 (ROUND)</string>
+    <string name="label_standing_threshold">멍때리기 %1$s</string>
+    <string name="label_walking_threshold">적당히 걷기 %1$s</string>
+    <string name="label_running_threshold">냅다 뛰기 %1$s</string>
+    <string name="label_standing_threshold_name">멍때리기</string>
+    <string name="label_walking_threshold_name">적당히 걷기</string>
+    <string name="label_running_threshold_name">냅다 뛰기</string>
+    <string name="label_sleeping">퍼질러 자기</string>
+    <string name="label_standing">멍때리기</string>
+    <string name="label_walking">적당히 걷기</string>
+    <string name="label_running">냅다 뛰기</string>
+
+    <!-- Main screen -->
+    <string name="main_choose_image_intent_title">이미지 선택</string>
+    <string name="main_permission_section_title">오버레이 권한</string>
+    <string name="main_permission_allowed">허용됨</string>
+    <string name="main_permission_required">필요</string>
+    <string name="main_onboarding_title">PhoneMate 시작하기</string>
+    <string name="main_onboarding_body">핸드폰 사용이 지루하지 않도록 핸드폰 위에 친구를 띄워놓으세요.\n\n1. \"권한\"에서 다른 앱 위에 표시 권한을 허용하세요.\n2. \"시작\"을 누르면 캐릭터가 화면 위에 나타납니다.\n3. 캐릭터를 길게 누르면 빠른 설정 메뉴가 열립니다.\n4. 설정 화면에서 캐릭터와 크기, 자원 경계값을 조절할 수 있습니다.\n5. 커스텀 캐릭터 및 이미지로 JPG, PNG, GIF를 등록할 수 있습니다.\n6. 파일 관리자에서 GIF가 안 보일 경우 \'내 파일\' 등의 기타 파일 관리자를 사용해보세요.\n\n※ 네트워크 속도는 기기 전체에서 실제로 오가는 데이터량을 측정한 값이며 이 측정이 별도로 데이터를 소모하지 않습니다. 다운로드 등 트래픽이 없으면 낮게, 있으면 그만큼 높게 표시됩니다.</string>
+    <string name="main_onboarding_confirm">알겠어요</string>
+    <string name="main_toggle_resource_bar">리소스 바</string>
+    <string name="main_toggle_speech_bubble">말풍선</string>
+    <string name="main_toggle_image_border">이미지 테두리</string>
+    <string name="main_animation_speed">애니메이션 속도 %1$sx</string>
+    <string name="main_character_scale">캐릭터 크기 %1$sx</string>
+    <string name="main_editing_character">%1$s 수정 중</string>
+    <string name="main_new_custom_character">새 커스텀 캐릭터</string>
+    <string name="main_new_custom">새로 만들기</string>
+    <string name="main_edit_custom">커스텀 수정</string>
+    <string name="main_delete_custom">커스텀 삭제…</string>
+    <string name="main_custom_name_label">커스텀 이름</string>
+    <string name="main_no_file">파일 없음</string>
+    <string name="main_save_changes">변경 사항 저장</string>
+    <string name="main_save_new_character">새 캐릭터 저장</string>
+    <string name="main_edit_character_dialog_title">캐릭터 수정</string>
+    <string name="main_delete_characters_dialog_title">캐릭터 삭제</string>
+
+    <!-- Main screen status messages -->
+    <string name="main_status_overlay_started">오버레이가 시작되었습니다</string>
+    <string name="main_status_overlay_stopped">오버레이가 정지되었습니다</string>
+    <string name="main_status_select_custom_to_update">수정할 커스텀 캐릭터를 선택하세요</string>
+    <string name="main_status_enter_character_name">캐릭터 이름을 입력하세요</string>
+    <string name="main_status_choose_minimum_state_image">최소 상태인 \"퍼질러 자기\" 이미지를 선택하세요</string>
+    <string name="main_minimum_state_image_required">캐릭터를 등록하려면 최소 상태인 \"퍼질러 자기\" 이미지가 필요합니다.</string>
+    <string name="main_status_character_updated">캐릭터가 수정되었습니다</string>
+    <string name="main_status_character_registered">캐릭터가 등록되었습니다</string>
+    <string name="main_status_character_operation_failed">캐릭터 작업에 실패했습니다</string>
+    <string name="main_status_select_custom_to_delete">삭제할 커스텀 캐릭터를 선택하세요</string>
+    <string name="main_status_character_deleted">캐릭터가 삭제되었습니다</string>
+    <string name="main_status_register_custom_character">커스텀 캐릭터 등록</string>
+
+    <!-- Popup menu -->
+    <string name="menu_always_on_top">항상 위에</string>
+    <string name="menu_show_resource_bar">리소스 바 표시</string>
+    <string name="menu_show_speech_bubble">말풍선 표시</string>
+    <string name="menu_show_image_border">이미지 테두리 표시</string>
+    <string name="menu_state_thresholds_section">상태 경계값</string>
+    <string name="menu_animation_speed_section">애니메이션 속도</string>
+    <string name="menu_character_scale_section">캐릭터 크기</string>
+    <string name="menu_image_shape_section">이미지 형태</string>
+    <string name="menu_reset_size">크기 초기화</string>
+
+    <!-- Resource type labels -->
+    <string name="resource_type_battery">배터리</string>
+    <string name="resource_type_network">네트워크</string>
+
+    <!-- Character repository error messages -->
+    <string name="char_repo_error_not_found">커스텀 캐릭터를 찾을 수 없습니다.</string>
+    <string name="char_repo_error_name_required">캐릭터 이름을 입력해야 합니다.</string>
+    <string name="char_repo_error_minimum_state_image_required">최소 상태인 \"퍼질러 자기\" 이미지를 선택해야 합니다.</string>
+    <string name="char_repo_error_duplicate_name">같은 이름의 캐릭터가 이미 있습니다. 커스텀 수정을 사용해 업데이트하세요.</string>
+    <string name="char_repo_error_image_extension">%1$s 이미지는 GIF, PNG, JPG, JPEG 형식이어야 합니다.</string>
+    <string name="char_repo_error_image_open_failed">이미지를 열 수 없습니다.</string>
+    <string name="char_repo_error_image_open_failed_from_path">%1$s 에서 이미지를 열 수 없습니다.</string>
+</resources>
