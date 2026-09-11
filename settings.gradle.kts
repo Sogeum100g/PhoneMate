@@ -16,3 +16,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "PhoneMate"
 include(":app")
+
+include(":wear")
