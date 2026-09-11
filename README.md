@@ -1,7 +1,7 @@
 <div align="center">
   <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="128" alt="PhoneMate 앱 아이콘">
   <h1>PhoneMate</h1>
-  <p>배터리와 네트워크 상태를 화면 위 캐릭터의 움직임으로 보여주는 Android 데스크톱 메이트</p>
+  <p>배터리와 네트워크 상태를 화면 위 캐릭터의 움직임으로 보여주는 Android 메이트</p>
 
   <a href="https://play.google.com/store/apps/details?id=com.phonemate.android&hl=ko">
     <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="80" alt="Google Play에서 다운로드">
@@ -13,6 +13,14 @@
 PhoneMate는 스마트폰 상태를 숫자 대신 살아 있는 캐릭터의 움직임으로 보여주는 플로팅 오버레이 앱입니다. 다른 앱을 사용하는 동안에도 화면 위 캐릭터를 통해 배터리 잔량이나 현재 네트워크 속도를 자연스럽게 확인할 수 있습니다.
 
 배터리가 넉넉하거나 네트워크가 빠르면 캐릭터가 활기차게 달리고, 상태가 낮아지면 걷거나 멈추고 눕습니다. 콘텐츠가 로딩되는 짧은 순간에는 화면 위의 작은 친구가 기다림의 지루함도 덜어 줍니다.
+
+<img width="300" height="650" alt="image" src="https://github.com/user-attachments/assets/eb65a609-e482-4c41-b3ff-d32608f8ea3b" />
+
+<img width="300" height="650" alt="image" src="https://github.com/user-attachments/assets/6b182f3d-9d97-49a2-aadd-0d6329b02253" />
+
+<img width="300" height="650" alt="image" src="https://github.com/user-attachments/assets/39eddfa4-bb11-453b-8d29-c4b255f207ac" />
+
+
 
 ## 주요 기능
 
@@ -55,24 +63,6 @@ Windows:
 ```powershell
 .\gradlew.bat test
 .\gradlew.bat assembleDebug
-```
-
-macOS 또는 Linux:
-
-```bash
-./gradlew test
-./gradlew assembleDebug
-```
-
-디버그 APK는 `app/build/outputs/apk/debug/`에 생성됩니다.
-
-## 프로젝트 구조
-
-```text
-PhoneMate/
-├── app/     # Android 앱과 플로팅 캐릭터 기능
-├── wear/    # Wear OS 앱 모듈
-└── gradle/  # Gradle Wrapper 및 버전 카탈로그
 ```
 
 ## Google Play
